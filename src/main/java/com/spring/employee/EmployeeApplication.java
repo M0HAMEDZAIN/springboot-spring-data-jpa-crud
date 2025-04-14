@@ -15,7 +15,7 @@ public class EmployeeApplication {
 	@Bean
 	public CommandLineRunner commandLineRunner() {
 		return runner -> {
-			System.out.println("Hello Spring CRUD Employee");
+			System.out.println("Hello Spring CRUD Employee Using SpringDataJPA");
 		};
 	}
 }
